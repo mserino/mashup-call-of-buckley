@@ -1,10 +1,8 @@
+<h1>{{title }}</h1>
+<p>Welcome to {{title }}</p>
 
 
-  <h1>{{title }}</h1>
-  <p>Welcome to {{title }}</p>
-
-
-  <form class="nameForm" method="post" action="/">
-  	<input type="text" name="name" class="playerName" placeholder="Enter name" />
-  	<button type="submit">Add player</button>
-  </form>
+<form id="nameForm" method="post" action="/name">
+	<input type="text" name="name" class="playerName" placeholder="Enter name" />
+	<button type="submit">Add player</button>
+</form>
